@@ -3,7 +3,7 @@ const { createAudioPlayer, createAudioResource, joinVoiceChannel, AudioPlayerSta
 const ytdl = require('ytdl-core');
 const axios = require('axios');
 
-const TOKEN = 'MTMzNTQyMDM2Mjk4ODQ1Mzk0MA.GcYl_F.L1_CAdb-cEAUc7yr7LZEugzbz1hePiORn7N3Ko';
+const TOKEN = (process.env.TOKEN);
 const CLIENT_ID = '1335420362988453940';
 
 if (!TOKEN || !CLIENT_ID) {
